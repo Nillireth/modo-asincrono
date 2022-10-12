@@ -1,0 +1,29 @@
+{
+  "name": "modo-asincrono",
+  "version": "1.0.0",
+  "description": "modo asincrono",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon promises/1_simple.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nillireth/modo-asincrono.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "modo-asincrono"
+  ],
+  "author": "Paula Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nillireth/modo-asincrono/issues"
+  },
+  "homepage": "https://github.com/Nillireth/modo-asincrono#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
