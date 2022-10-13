@@ -1,6 +1,6 @@
 const request = require('request')
 
-const url = "https://pokeapi.co/api/v2/type"
+const url = "https://pokeapi.co/api/v2/tpe"
 
 const r = request(url, 
     {json:true}, 

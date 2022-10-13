@@ -38,9 +38,13 @@ function get_data(endpoint){
         console.log(status)
     }
 
-get_data(url)
-    .then(function(response){
+const f = async function(){
+    try{ 
+        let response =  await get_data(url)
         exito(response)
-    }).catch(function(error){
-        fallo(Error(error))
-})
+    }catch(status){
+        fallo(status)
+    }
+}
+
+f()
